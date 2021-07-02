@@ -9,7 +9,8 @@ export default function CopyrightNotice({
   year,
 }: CopyrightNoticeProps): JSX.Element {
   // truthiness check: https://developer.mozilla.org/en-US/docs/Glossary/Truthy
-  if (author) {//if author is present
+  if (author) {
+    //if author is present
     return (
       <>
         <p>
